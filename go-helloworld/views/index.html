@@ -1,0 +1,17 @@
+{{define "index"}}
+<!DOCTYPE html>
+<link rel="stylesheet" href="/static/site.css" />
+<html>
+
+<head>
+    {{template "_header"}}
+</head>
+
+<body>
+    {{template "_message"}}
+    <p>Page: Index</p>
+    <p>Welcome {{.name}}</p>
+</body>
+
+</html>
+{{end}}
